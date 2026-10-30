@@ -1,0 +1,97 @@
+[
+  {
+    "file": "daily/R65单模型预测vs独立ADT六断面.csv",
+    "bytes": 4,
+    "sha256": "b42f2099187886def637d6aa840022266e05cb6c987a9394e708e23cd505eb46"
+  },
+  {
+    "file": "daily/R65单模型预测vs独立ADT逐样本.csv",
+    "bytes": 4,
+    "sha256": "b42f2099187886def637d6aa840022266e05cb6c987a9394e708e23cd505eb46"
+  },
+  {
+    "file": "daily/六断面逐日ADT与GLORYS成对误差.csv",
+    "bytes": 8447046,
+    "sha256": "b1d9f69e3e75561ed2f241411e070c5b44d781d1fc296a09ab69233b2f32bb1b"
+  },
+  {
+    "file": "daily/每日ADT_vs_GLORYS完整流轴空间误差.csv",
+    "bytes": 3005732,
+    "sha256": "ffec782b54d41d3f2999248be04ec71841c85313990c3526cd0f78d66330e398"
+  },
+  {
+    "file": "daily/每日六断面交点.csv",
+    "bytes": 10016848,
+    "sha256": "24374388fb1abe37c7c8d85576c6b6d8be20c386ea645cf53369d9c4e05db431"
+  },
+  {
+    "file": "daily/每日六断面交点和多交点信息.csv",
+    "bytes": 10094263,
+    "sha256": "4fbf3d04cdccd30194f84f3e9b613a8fd1434c560aa6191707092bb576f844c4"
+  },
+  {
+    "file": "daily/每日整体路径距离.csv",
+    "bytes": 2982612,
+    "sha256": "23e67c32c71e210dccd3b779716f5b2817e6d71c35af1a025e6fdd44402253a4"
+  },
+  {
+    "file": "figures_en/Fig01_Daily_Axis_Distance.pdf",
+    "bytes": 106273,
+    "sha256": "6fd9877aab892d76816ab4ee614bb515a79422fcb60747b39ae2ac4e3fc78e27"
+  },
+  {
+    "file": "figures_en/Fig01_Daily_Axis_Distance.png",
+    "bytes": 199023,
+    "sha256": "311f03b6558ffb8d135e36d6b6bdefd3d5141014f6cc1da1420ea82ed4bb2ff7"
+  },
+  {
+    "file": "figures_en/Fig02_Six_Sections_Monthly_Anomalies.pdf",
+    "bytes": 56000,
+    "sha256": "e178d7ca0b4c210ceae9783d79233b1b1dcd4cda4709807a2b8f23fd50b8aef6"
+  },
+  {
+    "file": "figures_en/Fig02_Six_Sections_Monthly_Anomalies.png",
+    "bytes": 1415200,
+    "sha256": "3900c7376b08895413dcd2c604ab0739204a3d0517374a2619ab422ab72f1764"
+  },
+  {
+    "file": "figures_en/Fig03_Trends_Six_Sections.pdf",
+    "bytes": 13438,
+    "sha256": "d2ce1119fff3c017d0d0a58a145c49b8fadaa98b8a1b6e45c92364d9257dcdb0"
+  },
+  {
+    "file": "figures_en/Fig03_Trends_Six_Sections.png",
+    "bytes": 42100,
+    "sha256": "94bac3bcb91710274d6cc51fc7cc7f69de46e71b31796bce96994b8769ca6f29"
+  },
+  {
+    "file": "figures_en/Fig04_Axis_Overlays.pdf",
+    "bytes": 41037,
+    "sha256": "2653c78bd2ca107373a74bc05605440d9040ee46a825ae28757aebfc7e4b530d"
+  },
+  {
+    "file": "figures_en/Fig04_Axis_Overlays.png",
+    "bytes": 402331,
+    "sha256": "b902e8788d48777f4c18d071b113be9f77bee706b96bb32dc68e0593fe260d20"
+  },
+  {
+    "file": "monthly/六断面ADT统一基准月尺度距平.csv",
+    "bytes": 272918,
+    "sha256": "dc006653bf7c66adba2ef8e730162d71bfe2eeb667a62523a184f7117868955a"
+  },
+  {
+    "file": "reports/R70_PY_实验边界及投稿限制.txt",
+    "bytes": 607,
+    "sha256": "5a339861d1dcd5bf985cb1722c84933d24a8bf6fee9a48deda4526b817d094fc"
+  },
+  {
+    "file": "reports/六断面及整体配对失败日期.csv",
+    "bytes": 4,
+    "sha256": "b42f2099187886def637d6aa840022266e05cb6c987a9394e708e23cd505eb46"
+  },
+  {
+    "file": "tables/六断面长期趋势与95CI.csv",
+    "bytes": 1090,
+    "sha256": "5dbdb09d87929a1c1aabc4bce738ef200bc305aca7f7fd5882c8a756aa85e9f5"
+  }
+]

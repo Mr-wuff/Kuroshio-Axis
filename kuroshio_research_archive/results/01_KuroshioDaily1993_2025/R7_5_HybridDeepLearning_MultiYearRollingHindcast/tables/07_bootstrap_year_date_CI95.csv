@@ -1,0 +1,4 @@
+lead_days,CI95_lower,CI95_upper,B,cluster
+30,40.97508008462545,54.43487368426374,400,test_year and circular 30-day date blocks
+60,42.797102472399125,56.37689161307529,400,test_year and circular 30-day date blocks
+90,45.18512473894071,60.76306975448439,400,test_year and circular 30-day date blocks

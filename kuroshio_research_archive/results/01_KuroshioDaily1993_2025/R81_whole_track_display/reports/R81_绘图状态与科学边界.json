@@ -1,0 +1,239 @@
+{
+  "version": "R81_WholeTrackDisplaySelection_v1.0",
+  "input_notebook_basis": "rewarite1_WSL(3) + offline coastline FIX2",
+  "available_dates": 11688,
+  "requested_dates_after_preview_sampling": 11688,
+  "readable_dates": 11688,
+  "read_failed_dates": 0,
+  "selected_days": 10145,
+  "omitted_days": 1543,
+  "selected_fraction": 0.867984257357974,
+  "source_files_written": false,
+  "whole_daily_track_selection": true,
+  "polygon_crop": false,
+  "no_line_segments_spliced": true,
+  "no_nan_gaps_bridged": true,
+  "selection_is_not_physical_truth": true,
+  "not_for_training_or_scoring": true,
+  "not_guaranteed_to_preserve_every_real_meander": true,
+  "source_sha_verified": true,
+  "unexpected_source_changes": [],
+  "reference_days": [
+    {
+      "reference": "Reference-1",
+      "date": "2011-03-12",
+      "npz": "/mnt/d/KuroshioDaily1993_2025/final/tracks_final/20110312.npz",
+      "cluster_days_in_reference_pool": 611,
+      "reference_pool_days": 1500,
+      "all_eligible_reference_days": 11299,
+      "path_length_km": 3622.2891837769125,
+      "input_sha256": "2c800b48e8d1d94f14fb13da44d2a4b344390cb15439967bd6a91c890822444a"
+    },
+    {
+      "reference": "Reference-2",
+      "date": "2017-06-27",
+      "npz": "/mnt/d/KuroshioDaily1993_2025/final/tracks_final/20170627.npz",
+      "cluster_days_in_reference_pool": 399,
+      "reference_pool_days": 1500,
+      "all_eligible_reference_days": 11299,
+      "path_length_km": 4144.21885505147,
+      "input_sha256": "732e6ee35eba01dbf3b4535aceac35d7ae54bd66b4ddf175d114fde4a16ca638"
+    },
+    {
+      "reference": "Reference-3",
+      "date": "2003-09-09",
+      "npz": "/mnt/d/KuroshioDaily1993_2025/final/tracks_final/20030909.npz",
+      "cluster_days_in_reference_pool": 490,
+      "reference_pool_days": 1500,
+      "all_eligible_reference_days": 11299,
+      "path_length_km": 3788.693915389458,
+      "input_sha256": "2c2795b38a65a578039c106bf6a90333190cfdff62692de4ccab2d494411b409"
+    }
+  ],
+  "mean_definitions": "separate all-days/retained-days arithmetic mean on 220 normalized-arclength coordinates; display only",
+  "config": {
+    "ROOT": "/mnt/d/KuroshioDaily1993_2025",
+    "TRACK_DIR": "",
+    "OUT_DIR": "",
+    "START_DATE": "1993-01-01",
+    "END_DATE": "2024-12-31",
+    "DAILY_STRIDE": 1,
+    "MAX_DAYS": 0,
+    "LANGUAGE": "both",
+    "DPI": 300,
+    "DAILY_ALPHA": 0.036,
+    "DAILY_LINEWIDTH": 0.29,
+    "SMOOTH_KM": 10.0,
+    "MAX_SMOOTH_DISPLACE_KM": 12.0,
+    "MEAN_SMOOTH_KM": 18.0,
+    "PROFILE_POINTS": 220,
+    "FILTER_SAMPLE_KM": 5.0,
+    "MAX_SEGMENT_JUMP_KM": 250.0,
+    "MIN_TRACK_POINTS": 15,
+    "MIN_TRACK_LENGTH_KM": 800.0,
+    "MAX_TRACK_LENGTH_KM": 7000.0,
+    "REFERENCE_MIN_LENGTH_KM": 1500.0,
+    "REFERENCE_MAX_LENGTH_KM": 5500.0,
+    "REFERENCE_COUNT": 3,
+    "REFERENCE_POOL_MAX": 1500,
+    "REFERENCE_MIN_CLUSTER_FRAC": 0.06,
+    "MAX_OUTSIDE_LENGTH_FRACTION": 0.04,
+    "MAX_OUTSIDE_RUN_KM": 120.0,
+    "MAX_DISTANCE_RATIO": 2.0,
+    "MAX_BACKTRACK_KM": 350.0,
+    "MAX_BACKTRACK_LENGTH_FRACTION": 0.18,
+    "DISTANCE_TOLERANCE_KM": [
+      [
+        0.0,
+        110.0
+      ],
+      [
+        0.1,
+        130.0
+      ],
+      [
+        0.25,
+        140.0
+      ],
+      [
+        0.4,
+        170.0
+      ],
+      [
+        0.55,
+        230.0
+      ],
+      [
+        0.75,
+        300.0
+      ],
+      [
+        0.9,
+        340.0
+      ],
+      [
+        1.0,
+        360.0
+      ]
+    ],
+    "VERIFY_SOURCE_SHA256": true,
+    "SHOW_REJECTED_FIGURE": true,
+    "MAKE_COMPARISON": true,
+    "KEEP_SHARE_WARNING_FRACTION": 0.5
+  },
+  "coastline": {
+    "source": "GSHHG / GSHHS coastline and land polygons",
+    "source_provider": "basemap-data",
+    "package_version": "2.0.0",
+    "upstream_dataset_version": "2.3.6 (as documented by basemap-data)",
+    "resolution": "intermediate (i), not 10-metre spatial resolution",
+    "area_threshold_km2": 1.0,
+    "subset_extent_lonlat": [
+      117,
+      149,
+      18,
+      44
+    ],
+    "plot_extent_lonlat": [
+      119,
+      147,
+      20,
+      42
+    ],
+    "coordinate_system": "WGS84 lon/lat degrees",
+    "polygons": 786,
+    "shoreline_segments": 1190,
+    "license": "LGPL-3.0-or-later",
+    "source_doc": "https://pypi.org/project/basemap-data/",
+    "dataset_doc": "https://www.ngdc.noaa.gov/mgg/shorelines/shorelines.html",
+    "processing": "Basemap cylindrical coordinate crop only; no invented coastline; no fitted ocean trajectories",
+    "contains_political_borders": false,
+    "npz_sha256": "f0b42741738950e7179da2e9236ba93467a0c335cb458431049e0b9d7d2ec99a"
+  },
+  "coastline_npz_sha256": "f0b42741738950e7179da2e9236ba93467a0c335cb458431049e0b9d7d2ec99a",
+  "transects": {
+    "A": [
+      [
+        121.5,
+        23.5
+      ],
+      [
+        125.0,
+        22.75
+      ]
+    ],
+    "B": [
+      [
+        121.5,
+        26.25
+      ],
+      [
+        124.25,
+        24.25
+      ]
+    ],
+    "PN": [
+      [
+        126.0,
+        29.0
+      ],
+      [
+        128.15,
+        27.3
+      ]
+    ],
+    "C": [
+      [
+        130.25,
+        31.25
+      ],
+      [
+        132.5,
+        27.0
+      ]
+    ],
+    "D": [
+      [
+        137.0,
+        34.75
+      ],
+      [
+        138.0,
+        27.75
+      ]
+    ],
+    "E": [
+      [
+        141.75,
+        40.0
+      ],
+      [
+        145.0,
+        31.5
+      ]
+    ]
+  },
+  "figure_files": [
+    "/mnt/d/KuroshioDaily1993_2025/R81_whole_track_display/figures/Figure2_all_tracks_reference_R81.png",
+    "/mnt/d/KuroshioDaily1993_2025/R81_whole_track_display/figures/Figure2_all_tracks_reference_R81.pdf",
+    "/mnt/d/KuroshioDaily1993_2025/R81_whole_track_display/figures/Figure2_whole_track_selected_R81.png",
+    "/mnt/d/KuroshioDaily1993_2025/R81_whole_track_display/figures/Figure2_whole_track_selected_R81.pdf",
+    "/mnt/d/KuroshioDaily1993_2025/R81_whole_track_display/figures/Figure2_omitted_tracks_audit_R81.png",
+    "/mnt/d/KuroshioDaily1993_2025/R81_whole_track_display/figures/Figure2_omitted_tracks_audit_R81.pdf",
+    "/mnt/d/KuroshioDaily1993_2025/R81_whole_track_display/figures/Figure2_unfiltered_vs_selected_R81.png",
+    "/mnt/d/KuroshioDaily1993_2025/R81_whole_track_display/figures/Figure2_unfiltered_vs_selected_R81.pdf",
+    "/mnt/d/KuroshioDaily1993_2025/R81_whole_track_display/figures/图2_未筛选完整对照_R81.png",
+    "/mnt/d/KuroshioDaily1993_2025/R81_whole_track_display/figures/图2_未筛选完整对照_R81.pdf",
+    "/mnt/d/KuroshioDaily1993_2025/R81_whole_track_display/figures/图2_完整日路径筛选_R81.png",
+    "/mnt/d/KuroshioDaily1993_2025/R81_whole_track_display/figures/图2_完整日路径筛选_R81.pdf",
+    "/mnt/d/KuroshioDaily1993_2025/R81_whole_track_display/figures/图2_未显示日期路径复核_R81.png",
+    "/mnt/d/KuroshioDaily1993_2025/R81_whole_track_display/figures/图2_未显示日期路径复核_R81.pdf",
+    "/mnt/d/KuroshioDaily1993_2025/R81_whole_track_display/figures/图2_筛选前后对照_R81.png",
+    "/mnt/d/KuroshioDaily1993_2025/R81_whole_track_display/figures/图2_筛选前后对照_R81.pdf"
+  ],
+  "languages_written": [
+    "en",
+    "zh"
+  ],
+  "created_utc": "2026-10-25T13:01:49.862744+00:00"
+}

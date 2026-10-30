@@ -1,0 +1,41 @@
+{
+  "data_path": "/mnt/d/KuroshioDaily1993_2025/final/dataset/daily_dual_branch_paths_1993_2025_FINAL.npz",
+  "data_sha256": "d51c3157dfc1014b8c67e7d38553e875a63602d0aaf781717558d5e10d5c6c16",
+  "data_days": 11771,
+  "date_min": "1993-01-01",
+  "date_max": "2025-03-25",
+  "fold_test_years": [
+    2005,
+    2009,
+    2013,
+    2017,
+    2021,
+    2024
+  ],
+  "leads_days": [
+    30,
+    60,
+    90
+  ],
+  "history_days": 180,
+  "temporal_policy": "strict causal issue-date rolling hindcast; train target < validation origin - purge; validation target < test origin - purge",
+  "train_only_scaler_eof": true,
+  "eof_target": 0.99,
+  "backbone": "EOF-TCN-LSTM two independent branches",
+  "reviewer_baselines": [
+    "Persistence",
+    "Climatology",
+    "recursive AR-EOF",
+    "parameter-matched LSTM"
+  ],
+  "neural_seeds": [
+    20,
+    21,
+    22,
+    23,
+    24
+  ],
+  "missing_policy": "input forward-fill <= 2 days; only actual valid target dates; no target interpolation",
+  "skill_metric": "symmetric bidirectional closest-polyline mean-square cross-track approximation in km; annual RMSE separately",
+  "independent_validation_status": "NOT part of this prediction experiment; separate independent observation-derived axis comparison required"
+}

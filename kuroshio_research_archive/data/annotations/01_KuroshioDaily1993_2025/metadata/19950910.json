@@ -1,0 +1,12 @@
+{
+  "date": "1995-09-10",
+  "status": "manual_corrected",
+  "note": "",
+  "metrics": {
+    "max_lon": 147.25,
+    "finite_speed_frac": 1.0,
+    "ridge_median": 0.9872328239071364,
+    "ridge_p10": 0.9441211417592967,
+    "p95_turn_deg": 52.51462180926028
+  }
+}

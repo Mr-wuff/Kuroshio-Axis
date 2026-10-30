@@ -1,0 +1,36 @@
+{
+  "version": "R65_GN8_CrossExchangeDrop_v1",
+  "dataset_sha256": "d51c3157dfc1014b8c67e7d38553e875a63602d0aaf781717558d5e10d5c6c16",
+  "data_representation": "Original frozen",
+  "history_days": 180,
+  "lead_days": [
+    30,
+    60,
+    90
+  ],
+  "physical_loss_alpha": 0.4,
+  "development_years": [
+    2014,
+    2019
+  ],
+  "confirmation_development_years": [
+    2006,
+    2011
+  ],
+  "seeds": [
+    71,
+    72
+  ],
+  "epochs": 36,
+  "patience": 8,
+  "dropout": 0.3,
+  "cross_exchange_dropout": [
+    0.35,
+    0.6
+  ],
+  "lr": 0.001,
+  "weight_decay": 0.0001,
+  "reference": "same-data same-split R6.4 genuine prediction archive",
+  "model_choice_from_confirm_years": false,
+  "all_QA_years_development_not_blind": true
+}

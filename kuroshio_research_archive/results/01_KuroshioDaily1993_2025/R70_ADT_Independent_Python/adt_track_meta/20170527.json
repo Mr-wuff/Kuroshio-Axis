@@ -1,0 +1,17 @@
+{
+  "stop_reason": "eastern downstream target reached",
+  "success": true,
+  "n_points": 265,
+  "last_lon": 144.5079373524954,
+  "last_lat": 36.811575461732986,
+  "n_recovery": 4,
+  "n_regularized": 28,
+  "ridge_g95": 0.005550231149808584,
+  "ridge_gc95": 0.004687604900432657,
+  "method": "ADT_V6_PythonPort",
+  "date": "2017-05-27",
+  "source_nc": "/mnt/f/01-CMEMS/SEALEVEL_GLO_PHY_L4_MY_008_047/cmems_obs-sl_glo_phy-ssh_my_allsat-l4-duacs-0.125deg_P1D/2017/dt_global_allsat_phy_l4_20170527_20241017.nc",
+  "walltime_s": 3.79,
+  "status": "success",
+  "qc_warning": false
+}

@@ -1,0 +1,137 @@
+{
+  "version": "R80_coastline_FIX1_offline_v1",
+  "adapted_from": "rewarite1_WSL(3).ipynb",
+  "date_filtered_input_paths": 11688,
+  "input_paths": 11688,
+  "valid_paths": 11688,
+  "failed_paths": 0,
+  "mean_profile_days": 11688,
+  "start_requested": "1993-01-01",
+  "end_requested": "2024-12-31",
+  "smooth_km_display_only": 10.0,
+  "mean_smooth_km_display_only": 18,
+  "display_smoothing_max_shift_km": 12,
+  "daily_stride": 1,
+  "max_lines": 0,
+  "daily_alpha": 0.036,
+  "longitude_latitude_extent": [
+    119.0,
+    147.0,
+    20.0,
+    42.0
+  ],
+  "dpi": 300,
+  "coordinate_display": "lon/lat degrees with aspect correction at 31N, unchanged from original; not Mercator",
+  "have_coastline": true,
+  "have_land_polygons": true,
+  "coastline_source": {
+    "source": "GSHHG / GSHHS coastline and land polygons",
+    "source_provider": "basemap-data",
+    "package_version": "2.0.0",
+    "upstream_dataset_version": "2.3.6 (as documented by basemap-data)",
+    "resolution": "intermediate (i), not 10-metre spatial resolution",
+    "area_threshold_km2": 1.0,
+    "subset_extent_lonlat": [
+      117,
+      149,
+      18,
+      44
+    ],
+    "plot_extent_lonlat": [
+      119,
+      147,
+      20,
+      42
+    ],
+    "coordinate_system": "WGS84 lon/lat degrees",
+    "polygons": 786,
+    "shoreline_segments": 1190,
+    "license": "LGPL-3.0-or-later",
+    "source_doc": "https://pypi.org/project/basemap-data/",
+    "dataset_doc": "https://www.ngdc.noaa.gov/mgg/shorelines/shorelines.html",
+    "processing": "Basemap cylindrical coordinate crop only; no invented coastline; no fitted ocean trajectories",
+    "contains_political_borders": false,
+    "npz_sha256": "f0b42741738950e7179da2e9236ba93467a0c335cb458431049e0b9d7d2ec99a"
+  },
+  "land_fill_below_data": true,
+  "hide_on_land_tracks": false,
+  "uses_adt_mask": false,
+  "requires_cartopy": false,
+  "runtime_network_required": false,
+  "mean_axis_usage": "same normalized-arclength arithmetic display mean as input notebook; not scientific reference axis",
+  "languages_written": [
+    "en",
+    "zh"
+  ],
+  "chinese_font_status": "generated",
+  "source_npz_modified": false,
+  "figure_files": [
+    "/mnt/d/KuroshioDaily1993_2025/R80_review_figures_with_coastline/figures/Figure2_daily_GLORYS_axis_6_transects_with_coastline.png",
+    "/mnt/d/KuroshioDaily1993_2025/R80_review_figures_with_coastline/figures/Figure2_daily_GLORYS_axis_6_transects_with_coastline.pdf",
+    "/mnt/d/KuroshioDaily1993_2025/R80_review_figures_with_coastline/figures/图2_逐日GLORYS流轴与六断面_含海岸线.png",
+    "/mnt/d/KuroshioDaily1993_2025/R80_review_figures_with_coastline/figures/图2_逐日GLORYS流轴与六断面_含海岸线.pdf"
+  ],
+  "transects": {
+    "A": [
+      [
+        121.5,
+        23.5
+      ],
+      [
+        125.0,
+        22.75
+      ]
+    ],
+    "B": [
+      [
+        121.5,
+        26.25
+      ],
+      [
+        124.25,
+        24.25
+      ]
+    ],
+    "PN": [
+      [
+        126.0,
+        29.0
+      ],
+      [
+        128.15,
+        27.3
+      ]
+    ],
+    "C": [
+      [
+        130.25,
+        31.25
+      ],
+      [
+        132.5,
+        27.0
+      ]
+    ],
+    "D": [
+      [
+        137.0,
+        34.75
+      ],
+      [
+        138.0,
+        27.75
+      ]
+    ],
+    "E": [
+      [
+        141.75,
+        40.0
+      ],
+      [
+        145.0,
+        31.5
+      ]
+    ]
+  },
+  "timestamp_utc": "2026-10-25T10:28:45.380405+00:00"
+}

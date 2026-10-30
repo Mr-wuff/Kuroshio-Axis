@@ -1,0 +1,139 @@
+{
+  "stage": "completed",
+  "created_utc": "2026-10-20T08:56:31.064182+00:00",
+  "dataset_sha256": "d51c3157dfc1014b8c67e7d38553e875a63602d0aaf781717558d5e10d5c6c16",
+  "config": {
+    "ROOT": "/mnt/d/KuroshioDaily1993_2025",
+    "DATASET_REL": "final/dataset/daily_dual_branch_paths_1993_2025_FINAL.npz",
+    "R75_REL": "R7_5_HybridDeepLearning_MultiYearRollingHindcast",
+    "R76_REL": "R7_6_FairBaselines_2026",
+    "R75_ZIP": "R75_上传给ChatGPT_多年滚动后报_hybrid_deep-learning_prediction.zip",
+    "R76_ZIP": "R76_上传给ChatGPT_四类基线公平比较.zip",
+    "OUT_REL": "R7_8_SixSection_FiveModels_Hindcast",
+    "YEARS": [
+      2005,
+      2008,
+      2011,
+      2014,
+      2017,
+      2019,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "SEEDS": [
+      71,
+      72
+    ],
+    "LEADS": [
+      30,
+      60,
+      90
+    ],
+    "DROP_BRANCH1_FIRST": 12,
+    "BRANCH2_MAX_LON": 145.0,
+    "BOOT_REPS": 1500,
+    "FIG_DPI": 220,
+    "STRICT_FULL": true,
+    "OUTPUT_ZIP": "R78_上传给ChatGPT_六断面五模型三提前期比较.zip"
+  },
+  "sections": {
+    "A": [
+      [
+        121.5,
+        23.5
+      ],
+      [
+        125.0,
+        22.75
+      ]
+    ],
+    "B": [
+      [
+        121.5,
+        26.25
+      ],
+      [
+        124.25,
+        24.25
+      ]
+    ],
+    "PN": [
+      [
+        126.0,
+        29.0
+      ],
+      [
+        128.15,
+        27.3
+      ]
+    ],
+    "C": [
+      [
+        130.25,
+        31.25
+      ],
+      [
+        132.5,
+        27.0
+      ]
+    ],
+    "D": [
+      [
+        137.0,
+        34.75
+      ],
+      [
+        138.0,
+        27.75
+      ]
+    ],
+    "E": [
+      [
+        141.75,
+        40.0
+      ],
+      [
+        145.0,
+        31.5
+      ]
+    ]
+  },
+  "branch_policy": {
+    "A": "b1",
+    "B": "b2",
+    "PN": "b2",
+    "C": "b2",
+    "D": "b2",
+    "E": "b2"
+  },
+  "model_keys": {
+    "hybrid": "hybrid deep-learning prediction",
+    "persistence": "Persistence",
+    "climatology": "Climatology",
+    "ar_eof": "AR-EOF",
+    "lstm": "Parameter-matched LSTM"
+  },
+  "n_model_forecast_lead_records": 80460,
+  "n_predicted_section_records": 482760,
+  "n_five_model_common_valid_section_records": 415335,
+  "n_common_cases_divide5": 83067,
+  "missing_prediction_files": 0,
+  "deterministic_seed_reuse_count": 30,
+  "deterministic_seed_reuse_explanation": "R7.6 saved only Seed 71 forecast arrays for Persistence/Climatology/AR-EOF; Seed 72 official date keys and all six scoring columns were verified exactly identical before reuse. Reuse is NOT an independent seed replicate.",
+  "reference": "GLORYS12V1 50m frozen dual-branch paths, NOT satellite ADT",
+  "strict_comparison": "A=branch1, B/PN/C/D/E=branch2; one unique crossing on both truth and forecast",
+  "primary_aggregation": "within-year seed/issue MSE, across years equal-weight MSE, then sqrt",
+  "no_training_or_checkpoint_loading": true,
+  "main_tables": [
+    "09_MAIN_fair_year_equal_90_metrics.csv",
+    "10_MAIN_six_sections_five_models_three_leads_pivot.csv"
+  ],
+  "limitations": [
+    "Predicted/nonpredicted section intersections can differ; coverage reported",
+    "Ten selected annual folds, not exhaustive 20-year rolling tests",
+    "2011,2014,2019 previously used in development",
+    "B overlap sensitivity reported separately"
+  ]
+}

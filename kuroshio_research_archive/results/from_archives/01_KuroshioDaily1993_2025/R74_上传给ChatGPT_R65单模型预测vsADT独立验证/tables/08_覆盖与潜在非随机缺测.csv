@@ -1,0 +1,7 @@
+﻿qa_year,lead_days,total_model_forecasts,paired_complete_adt,missing_or_failed,unique_issue_dates,unique_paired_target_dates
+2014,30,536,530,6,268,265
+2014,60,536,518,18,268,259
+2014,90,536,518,18,268,259
+2019,30,536,502,34,268,251
+2019,60,536,504,32,268,252
+2019,90,536,508,28,268,254

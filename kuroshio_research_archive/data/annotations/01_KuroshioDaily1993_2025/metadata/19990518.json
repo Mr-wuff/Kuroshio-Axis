@@ -1,0 +1,12 @@
+{
+  "date": "1999-05-18",
+  "status": "manual_corrected",
+  "note": "",
+  "metrics": {
+    "max_lon": 146.3333282470703,
+    "finite_speed_frac": 1.0,
+    "ridge_median": 0.9890297372240715,
+    "ridge_p10": 0.9462705618188287,
+    "p95_turn_deg": 57.9085899112223
+  }
+}

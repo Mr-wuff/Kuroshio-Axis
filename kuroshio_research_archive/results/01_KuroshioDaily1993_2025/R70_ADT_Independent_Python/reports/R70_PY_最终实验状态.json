@@ -1,0 +1,22 @@
+{
+  "all_calendar_days": 11322,
+  "adt_nc_files": 11322,
+  "adt_successful_tracks": 10279,
+  "glorys_tracks": 11771,
+  "paired_monitoring_days": 10279,
+  "protocol": "ADT_V6_PythonPort; independent satellite product surface vs GLORYS 50m",
+  "forecast_status": "Forecast manifest absent: monitoring validation only; NOT a forecast verification.",
+  "forecast_sample_count": 0,
+  "run_full": true,
+  "adt_status_counts": {
+    "success": 10279,
+    "qc_rejected": 1043
+  },
+  "n_months_with_common_pairs": 2130,
+  "n_six_section_trends": 6,
+  "n_pair_failures": 0,
+  "cjk_figures_generated": false,
+  "adt_data_origin": "CMEMS DUACS 0.125deg daily ADT",
+  "model_adt_independence_note": "ADT is a satellite altimetry reference, not error-free truth; GLORYS may assimilate altimetry",
+  "tracker_method_equivalence": "Python numerical port; exact MATLAB equality unverified"
+}

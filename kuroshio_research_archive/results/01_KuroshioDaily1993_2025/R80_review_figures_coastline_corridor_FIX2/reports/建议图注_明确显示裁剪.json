@@ -1,0 +1,4 @@
+{
+  "中文": "为展示预先指定的地理范围，本图仅显示该显示走廊内的逐日流轴连续线段。走廊由人工定义，并非物理质量控制或精度判定；范围外轨迹未在本图显示。原始轨迹未修改，未裁剪对照图及逐日裁剪比例另附。绿色曲线按全部可用完整日轨迹计算显示平均轴，再按相同走廊裁剪，不据裁剪结果重估平均值。",
+  "English": "Daily axis segments are displayed only within a manually specified geographic display corridor. This spatial crop is not a physical quality-control or accuracy criterion. Source tracks are unchanged; an unclipped companion figure and per-date clipping audit are provided. The green display mean is computed from all readable continuous daily tracks before clipping and is not re-estimated from the visible subset."
+}

@@ -1,0 +1,4 @@
+﻿reference,date,npz,cluster_days_in_reference_pool,reference_pool_days,all_eligible_reference_days,path_length_km,input_sha256
+Reference-1,2011-03-12,/mnt/d/KuroshioDaily1993_2025/final/tracks_final/20110312.npz,611,1500,11299,3622.2891837769125,2c800b48e8d1d94f14fb13da44d2a4b344390cb15439967bd6a91c890822444a
+Reference-2,2017-06-27,/mnt/d/KuroshioDaily1993_2025/final/tracks_final/20170627.npz,399,1500,11299,4144.21885505147,732e6ee35eba01dbf3b4535aceac35d7ae54bd66b4ddf175d114fde4a16ca638
+Reference-3,2003-09-09,/mnt/d/KuroshioDaily1993_2025/final/tracks_final/20030909.npz,490,1500,11299,3788.693915389458,2c2795b38a65a578039c106bf6a90333190cfdff62692de4ccab2d494411b409

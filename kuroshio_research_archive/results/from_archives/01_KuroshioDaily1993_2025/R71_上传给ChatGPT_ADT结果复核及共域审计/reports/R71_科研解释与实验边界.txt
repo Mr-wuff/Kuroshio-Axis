@@ -1,0 +1,8 @@
+R7.1 REPORT / SCIENTIFIC LIMITATIONS
+1. The reported 10,279 paired daily validation samples are monitoring axes only, not forecast errors.
+2. 2023 is badly undercovered (91 of 365 accepted). August 20-December 31 missing continuously; the peak KE anomaly cannot be verified by these 2023 ADT axes.
+3. Original 50.42 km average daily polyline RMSE includes differences in eastern spatial support. Report common-domain sensitivity alongside original result; do not silently substitute one with the other.
+4. Trends use shared month/date pairs and an ADT-centered mean; A/B contain opposite-signed ADT/GLORYS trends, while D/E correlate strongly.
+5. Missing months and rejected dates must remain explicit; changing the tracker after viewing GLORYS discrepancies requires new independent evaluation protocol.
+6. The 2023 ADT failures merit an ADT-only recovery based on satellite field diagnostics, or independent satellite expert/manual adjudication, blinded to GLORYS prediction errors.
+7. Forecast-to-ADT analysis needs actual saved forecast path positions, model checkpoint provenance, target dates, and valid causal training/validation splits.

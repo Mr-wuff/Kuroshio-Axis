@@ -1,0 +1,12 @@
+{
+  "date": "2002-09-02",
+  "status": "manual_corrected",
+  "note": "",
+  "metrics": {
+    "max_lon": 147.5,
+    "finite_speed_frac": 1.0,
+    "ridge_median": 0.976412375251118,
+    "ridge_p10": 0.9224923412936638,
+    "p95_turn_deg": 59.17328502205049
+  }
+}

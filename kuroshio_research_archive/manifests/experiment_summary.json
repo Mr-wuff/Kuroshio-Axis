@@ -1,0 +1,32 @@
+{
+  "tool_version": "1.2.0",
+  "included_files": 14414,
+  "included_size_bytes": 423239039,
+  "included_counts_by_category": {
+    "code": 46,
+    "data/frozen": 2,
+    "data/frozen_reports": 4,
+    "data/annotations": 2386,
+    "data/final_tracks": 33,
+    "data/adt_axes": 31,
+    "results/final": 11912
+  },
+  "manual_corrected_days_from_frozen_metadata": 795,
+  "missing_or_excluded_entries": 2,
+  "data_budget_bytes": 1073741824,
+  "results_budget_bytes": 536870912,
+  "raw_netcdf_inventory_size_bytes": 0,
+  "raw_netcdf_inventory_file_count": 0,
+  "raw_upload_policy": "none (deliberately excluded)",
+  "lossless_split_original_files": 0,
+  "project": {
+    "source_policy": "No source NetCDF scan/index/upload; derived data and code only",
+    "raw_netcdf_files_scanned": 0,
+    "raw_netcdf_bytes": 0,
+    "human_corrected_days_from_final_metadata": 795,
+    "data/final_tracks/01_KuroshioDaily1993_2025_original_files": 11771,
+    "data/final_tracks/01_KuroshioDaily1993_2025_year_zip_count": 33,
+    "data/adt_axes/01_KuroshioDaily1993_2025_original_files": 10279,
+    "data/adt_axes/01_KuroshioDaily1993_2025_year_zip_count": 31
+  }
+}

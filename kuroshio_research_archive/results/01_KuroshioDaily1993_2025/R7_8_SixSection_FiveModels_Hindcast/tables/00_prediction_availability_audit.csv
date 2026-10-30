@@ -1,0 +1,101 @@
+﻿test_year,seed,model,requested_file,source_file,source_seed,deterministic_seed_reuse,local_exists,zip_exists,available
+2005,71,hybrid deep-learning prediction,forecast_arrays/pred_2005_seed71.npz,forecast_arrays/pred_2005_seed71.npz,71,False,True,False,True
+2005,71,Persistence,predictions/pred_persistence_2005_seed71.npz,predictions/pred_persistence_2005_seed71.npz,71,False,True,False,True
+2005,71,Climatology,predictions/pred_climatology_2005_seed71.npz,predictions/pred_climatology_2005_seed71.npz,71,False,True,False,True
+2005,71,AR-EOF,predictions/pred_ar_eof_2005_seed71.npz,predictions/pred_ar_eof_2005_seed71.npz,71,False,True,False,True
+2005,71,Parameter-matched LSTM,predictions/pred_lstm_2005_seed71.npz,predictions/pred_lstm_2005_seed71.npz,71,False,True,False,True
+2005,72,hybrid deep-learning prediction,forecast_arrays/pred_2005_seed72.npz,forecast_arrays/pred_2005_seed72.npz,72,False,True,False,True
+2005,72,Persistence,predictions/pred_persistence_2005_seed72.npz,predictions/pred_persistence_2005_seed71.npz,71,True,True,False,True
+2005,72,Climatology,predictions/pred_climatology_2005_seed72.npz,predictions/pred_climatology_2005_seed71.npz,71,True,True,False,True
+2005,72,AR-EOF,predictions/pred_ar_eof_2005_seed72.npz,predictions/pred_ar_eof_2005_seed71.npz,71,True,True,False,True
+2005,72,Parameter-matched LSTM,predictions/pred_lstm_2005_seed72.npz,predictions/pred_lstm_2005_seed72.npz,72,False,True,False,True
+2008,71,hybrid deep-learning prediction,forecast_arrays/pred_2008_seed71.npz,forecast_arrays/pred_2008_seed71.npz,71,False,True,False,True
+2008,71,Persistence,predictions/pred_persistence_2008_seed71.npz,predictions/pred_persistence_2008_seed71.npz,71,False,True,False,True
+2008,71,Climatology,predictions/pred_climatology_2008_seed71.npz,predictions/pred_climatology_2008_seed71.npz,71,False,True,False,True
+2008,71,AR-EOF,predictions/pred_ar_eof_2008_seed71.npz,predictions/pred_ar_eof_2008_seed71.npz,71,False,True,False,True
+2008,71,Parameter-matched LSTM,predictions/pred_lstm_2008_seed71.npz,predictions/pred_lstm_2008_seed71.npz,71,False,True,False,True
+2008,72,hybrid deep-learning prediction,forecast_arrays/pred_2008_seed72.npz,forecast_arrays/pred_2008_seed72.npz,72,False,True,False,True
+2008,72,Persistence,predictions/pred_persistence_2008_seed72.npz,predictions/pred_persistence_2008_seed71.npz,71,True,True,False,True
+2008,72,Climatology,predictions/pred_climatology_2008_seed72.npz,predictions/pred_climatology_2008_seed71.npz,71,True,True,False,True
+2008,72,AR-EOF,predictions/pred_ar_eof_2008_seed72.npz,predictions/pred_ar_eof_2008_seed71.npz,71,True,True,False,True
+2008,72,Parameter-matched LSTM,predictions/pred_lstm_2008_seed72.npz,predictions/pred_lstm_2008_seed72.npz,72,False,True,False,True
+2011,71,hybrid deep-learning prediction,forecast_arrays/pred_2011_seed71.npz,forecast_arrays/pred_2011_seed71.npz,71,False,True,False,True
+2011,71,Persistence,predictions/pred_persistence_2011_seed71.npz,predictions/pred_persistence_2011_seed71.npz,71,False,True,False,True
+2011,71,Climatology,predictions/pred_climatology_2011_seed71.npz,predictions/pred_climatology_2011_seed71.npz,71,False,True,False,True
+2011,71,AR-EOF,predictions/pred_ar_eof_2011_seed71.npz,predictions/pred_ar_eof_2011_seed71.npz,71,False,True,False,True
+2011,71,Parameter-matched LSTM,predictions/pred_lstm_2011_seed71.npz,predictions/pred_lstm_2011_seed71.npz,71,False,True,False,True
+2011,72,hybrid deep-learning prediction,forecast_arrays/pred_2011_seed72.npz,forecast_arrays/pred_2011_seed72.npz,72,False,True,False,True
+2011,72,Persistence,predictions/pred_persistence_2011_seed72.npz,predictions/pred_persistence_2011_seed71.npz,71,True,True,False,True
+2011,72,Climatology,predictions/pred_climatology_2011_seed72.npz,predictions/pred_climatology_2011_seed71.npz,71,True,True,False,True
+2011,72,AR-EOF,predictions/pred_ar_eof_2011_seed72.npz,predictions/pred_ar_eof_2011_seed71.npz,71,True,True,False,True
+2011,72,Parameter-matched LSTM,predictions/pred_lstm_2011_seed72.npz,predictions/pred_lstm_2011_seed72.npz,72,False,True,False,True
+2014,71,hybrid deep-learning prediction,forecast_arrays/pred_2014_seed71.npz,forecast_arrays/pred_2014_seed71.npz,71,False,True,False,True
+2014,71,Persistence,predictions/pred_persistence_2014_seed71.npz,predictions/pred_persistence_2014_seed71.npz,71,False,True,False,True
+2014,71,Climatology,predictions/pred_climatology_2014_seed71.npz,predictions/pred_climatology_2014_seed71.npz,71,False,True,False,True
+2014,71,AR-EOF,predictions/pred_ar_eof_2014_seed71.npz,predictions/pred_ar_eof_2014_seed71.npz,71,False,True,False,True
+2014,71,Parameter-matched LSTM,predictions/pred_lstm_2014_seed71.npz,predictions/pred_lstm_2014_seed71.npz,71,False,True,False,True
+2014,72,hybrid deep-learning prediction,forecast_arrays/pred_2014_seed72.npz,forecast_arrays/pred_2014_seed72.npz,72,False,True,False,True
+2014,72,Persistence,predictions/pred_persistence_2014_seed72.npz,predictions/pred_persistence_2014_seed71.npz,71,True,True,False,True
+2014,72,Climatology,predictions/pred_climatology_2014_seed72.npz,predictions/pred_climatology_2014_seed71.npz,71,True,True,False,True
+2014,72,AR-EOF,predictions/pred_ar_eof_2014_seed72.npz,predictions/pred_ar_eof_2014_seed71.npz,71,True,True,False,True
+2014,72,Parameter-matched LSTM,predictions/pred_lstm_2014_seed72.npz,predictions/pred_lstm_2014_seed72.npz,72,False,True,False,True
+2017,71,hybrid deep-learning prediction,forecast_arrays/pred_2017_seed71.npz,forecast_arrays/pred_2017_seed71.npz,71,False,True,False,True
+2017,71,Persistence,predictions/pred_persistence_2017_seed71.npz,predictions/pred_persistence_2017_seed71.npz,71,False,True,False,True
+2017,71,Climatology,predictions/pred_climatology_2017_seed71.npz,predictions/pred_climatology_2017_seed71.npz,71,False,True,False,True
+2017,71,AR-EOF,predictions/pred_ar_eof_2017_seed71.npz,predictions/pred_ar_eof_2017_seed71.npz,71,False,True,False,True
+2017,71,Parameter-matched LSTM,predictions/pred_lstm_2017_seed71.npz,predictions/pred_lstm_2017_seed71.npz,71,False,True,False,True
+2017,72,hybrid deep-learning prediction,forecast_arrays/pred_2017_seed72.npz,forecast_arrays/pred_2017_seed72.npz,72,False,True,False,True
+2017,72,Persistence,predictions/pred_persistence_2017_seed72.npz,predictions/pred_persistence_2017_seed71.npz,71,True,True,False,True
+2017,72,Climatology,predictions/pred_climatology_2017_seed72.npz,predictions/pred_climatology_2017_seed71.npz,71,True,True,False,True
+2017,72,AR-EOF,predictions/pred_ar_eof_2017_seed72.npz,predictions/pred_ar_eof_2017_seed71.npz,71,True,True,False,True
+2017,72,Parameter-matched LSTM,predictions/pred_lstm_2017_seed72.npz,predictions/pred_lstm_2017_seed72.npz,72,False,True,False,True
+2019,71,hybrid deep-learning prediction,forecast_arrays/pred_2019_seed71.npz,forecast_arrays/pred_2019_seed71.npz,71,False,True,False,True
+2019,71,Persistence,predictions/pred_persistence_2019_seed71.npz,predictions/pred_persistence_2019_seed71.npz,71,False,True,False,True
+2019,71,Climatology,predictions/pred_climatology_2019_seed71.npz,predictions/pred_climatology_2019_seed71.npz,71,False,True,False,True
+2019,71,AR-EOF,predictions/pred_ar_eof_2019_seed71.npz,predictions/pred_ar_eof_2019_seed71.npz,71,False,True,False,True
+2019,71,Parameter-matched LSTM,predictions/pred_lstm_2019_seed71.npz,predictions/pred_lstm_2019_seed71.npz,71,False,True,False,True
+2019,72,hybrid deep-learning prediction,forecast_arrays/pred_2019_seed72.npz,forecast_arrays/pred_2019_seed72.npz,72,False,True,False,True
+2019,72,Persistence,predictions/pred_persistence_2019_seed72.npz,predictions/pred_persistence_2019_seed71.npz,71,True,True,False,True
+2019,72,Climatology,predictions/pred_climatology_2019_seed72.npz,predictions/pred_climatology_2019_seed71.npz,71,True,True,False,True
+2019,72,AR-EOF,predictions/pred_ar_eof_2019_seed72.npz,predictions/pred_ar_eof_2019_seed71.npz,71,True,True,False,True
+2019,72,Parameter-matched LSTM,predictions/pred_lstm_2019_seed72.npz,predictions/pred_lstm_2019_seed72.npz,72,False,True,False,True
+2021,71,hybrid deep-learning prediction,forecast_arrays/pred_2021_seed71.npz,forecast_arrays/pred_2021_seed71.npz,71,False,True,False,True
+2021,71,Persistence,predictions/pred_persistence_2021_seed71.npz,predictions/pred_persistence_2021_seed71.npz,71,False,True,False,True
+2021,71,Climatology,predictions/pred_climatology_2021_seed71.npz,predictions/pred_climatology_2021_seed71.npz,71,False,True,False,True
+2021,71,AR-EOF,predictions/pred_ar_eof_2021_seed71.npz,predictions/pred_ar_eof_2021_seed71.npz,71,False,True,False,True
+2021,71,Parameter-matched LSTM,predictions/pred_lstm_2021_seed71.npz,predictions/pred_lstm_2021_seed71.npz,71,False,True,False,True
+2021,72,hybrid deep-learning prediction,forecast_arrays/pred_2021_seed72.npz,forecast_arrays/pred_2021_seed72.npz,72,False,True,False,True
+2021,72,Persistence,predictions/pred_persistence_2021_seed72.npz,predictions/pred_persistence_2021_seed71.npz,71,True,True,False,True
+2021,72,Climatology,predictions/pred_climatology_2021_seed72.npz,predictions/pred_climatology_2021_seed71.npz,71,True,True,False,True
+2021,72,AR-EOF,predictions/pred_ar_eof_2021_seed72.npz,predictions/pred_ar_eof_2021_seed71.npz,71,True,True,False,True
+2021,72,Parameter-matched LSTM,predictions/pred_lstm_2021_seed72.npz,predictions/pred_lstm_2021_seed72.npz,72,False,True,False,True
+2022,71,hybrid deep-learning prediction,forecast_arrays/pred_2022_seed71.npz,forecast_arrays/pred_2022_seed71.npz,71,False,True,False,True
+2022,71,Persistence,predictions/pred_persistence_2022_seed71.npz,predictions/pred_persistence_2022_seed71.npz,71,False,True,False,True
+2022,71,Climatology,predictions/pred_climatology_2022_seed71.npz,predictions/pred_climatology_2022_seed71.npz,71,False,True,False,True
+2022,71,AR-EOF,predictions/pred_ar_eof_2022_seed71.npz,predictions/pred_ar_eof_2022_seed71.npz,71,False,True,False,True
+2022,71,Parameter-matched LSTM,predictions/pred_lstm_2022_seed71.npz,predictions/pred_lstm_2022_seed71.npz,71,False,True,False,True
+2022,72,hybrid deep-learning prediction,forecast_arrays/pred_2022_seed72.npz,forecast_arrays/pred_2022_seed72.npz,72,False,True,False,True
+2022,72,Persistence,predictions/pred_persistence_2022_seed72.npz,predictions/pred_persistence_2022_seed71.npz,71,True,True,False,True
+2022,72,Climatology,predictions/pred_climatology_2022_seed72.npz,predictions/pred_climatology_2022_seed71.npz,71,True,True,False,True
+2022,72,AR-EOF,predictions/pred_ar_eof_2022_seed72.npz,predictions/pred_ar_eof_2022_seed71.npz,71,True,True,False,True
+2022,72,Parameter-matched LSTM,predictions/pred_lstm_2022_seed72.npz,predictions/pred_lstm_2022_seed72.npz,72,False,True,False,True
+2023,71,hybrid deep-learning prediction,forecast_arrays/pred_2023_seed71.npz,forecast_arrays/pred_2023_seed71.npz,71,False,True,False,True
+2023,71,Persistence,predictions/pred_persistence_2023_seed71.npz,predictions/pred_persistence_2023_seed71.npz,71,False,True,False,True
+2023,71,Climatology,predictions/pred_climatology_2023_seed71.npz,predictions/pred_climatology_2023_seed71.npz,71,False,True,False,True
+2023,71,AR-EOF,predictions/pred_ar_eof_2023_seed71.npz,predictions/pred_ar_eof_2023_seed71.npz,71,False,True,False,True
+2023,71,Parameter-matched LSTM,predictions/pred_lstm_2023_seed71.npz,predictions/pred_lstm_2023_seed71.npz,71,False,True,False,True
+2023,72,hybrid deep-learning prediction,forecast_arrays/pred_2023_seed72.npz,forecast_arrays/pred_2023_seed72.npz,72,False,True,False,True
+2023,72,Persistence,predictions/pred_persistence_2023_seed72.npz,predictions/pred_persistence_2023_seed71.npz,71,True,True,False,True
+2023,72,Climatology,predictions/pred_climatology_2023_seed72.npz,predictions/pred_climatology_2023_seed71.npz,71,True,True,False,True
+2023,72,AR-EOF,predictions/pred_ar_eof_2023_seed72.npz,predictions/pred_ar_eof_2023_seed71.npz,71,True,True,False,True
+2023,72,Parameter-matched LSTM,predictions/pred_lstm_2023_seed72.npz,predictions/pred_lstm_2023_seed72.npz,72,False,True,False,True
+2024,71,hybrid deep-learning prediction,forecast_arrays/pred_2024_seed71.npz,forecast_arrays/pred_2024_seed71.npz,71,False,True,False,True
+2024,71,Persistence,predictions/pred_persistence_2024_seed71.npz,predictions/pred_persistence_2024_seed71.npz,71,False,True,False,True
+2024,71,Climatology,predictions/pred_climatology_2024_seed71.npz,predictions/pred_climatology_2024_seed71.npz,71,False,True,False,True
+2024,71,AR-EOF,predictions/pred_ar_eof_2024_seed71.npz,predictions/pred_ar_eof_2024_seed71.npz,71,False,True,False,True
+2024,71,Parameter-matched LSTM,predictions/pred_lstm_2024_seed71.npz,predictions/pred_lstm_2024_seed71.npz,71,False,True,False,True
+2024,72,hybrid deep-learning prediction,forecast_arrays/pred_2024_seed72.npz,forecast_arrays/pred_2024_seed72.npz,72,False,True,False,True
+2024,72,Persistence,predictions/pred_persistence_2024_seed72.npz,predictions/pred_persistence_2024_seed71.npz,71,True,True,False,True
+2024,72,Climatology,predictions/pred_climatology_2024_seed72.npz,predictions/pred_climatology_2024_seed71.npz,71,True,True,False,True
+2024,72,AR-EOF,predictions/pred_ar_eof_2024_seed72.npz,predictions/pred_ar_eof_2024_seed71.npz,71,True,True,False,True
+2024,72,Parameter-matched LSTM,predictions/pred_lstm_2024_seed72.npz,predictions/pred_lstm_2024_seed72.npz,72,False,True,False,True

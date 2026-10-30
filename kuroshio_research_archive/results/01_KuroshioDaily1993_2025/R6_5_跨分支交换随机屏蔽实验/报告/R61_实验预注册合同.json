@@ -1,0 +1,32 @@
+{
+  "research_version": "R64-loss-alignment-baseline-v1",
+  "dataset_sha256": "d51c3157dfc1014b8c67e7d38553e875a63602d0aaf781717558d5e10d5c6c16",
+  "alpha": 0.4,
+  "km_norm": 25.0,
+  "beta": 0.5,
+  "epochs": 36,
+  "patience": 8,
+  "seed_list": [
+    71,
+    72
+  ],
+  "qa_years": [
+    2006,
+    2014
+  ],
+  "confirmation_years": [
+    2011,
+    2019
+  ],
+  "test_data_are_not_blind": true,
+  "physical_loss_applies_to_lstm": true,
+  "eof_train_only": true,
+  "expected_models": [
+    "Matched-LSTM",
+    "R53-CapacityMatchedLSTM",
+    "R53-ChannelConv-PCConcat",
+    "R61-LSTMPhys",
+    "R61-HybridPhys",
+    "R61-CrossPhys"
+  ]
+}

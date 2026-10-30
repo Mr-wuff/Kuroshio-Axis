@@ -1,0 +1,39 @@
+{
+  "r70_checksums": [
+    {
+      "file": "R70_PY_上传给ChatGPT_ADT独立参考验证完整结果.zip",
+      "sha256": "b1a6d0379d6f6a6c9e7b7c6790eaa485f47ebdecc42a3887c68edaa11f70e91a",
+      "external_sha_match": true
+    },
+    {
+      "file": "R70_PY_上传给ChatGPT_日期覆盖与流轴追踪QC.zip",
+      "sha256": "2b658a438feeb6e4b855b1b27ffd6d3108326fac9cd2c788efbcb7ffa2d0210d",
+      "external_sha_match": true
+    }
+  ],
+  "raw_adt_days": 11322,
+  "accepted_adt_days": 10279,
+  "rejected_adt_days": 1043,
+  "accepted_2023_days": 91,
+  "longest_failure_period": {
+    "start": "2023-08-20",
+    "end": "2023-12-31",
+    "days": 134
+  },
+  "paired_monitoring_days": 10279,
+  "mean_daily_fullpath_rmse_km": 50.42073883832429,
+  "median_daily_fullpath_rmse_km": 42.276958879159785,
+  "mean_adt_endpoint_lon": 144.43163152227652,
+  "mean_glorys_endpoint_lon": 146.2850695158306,
+  "forecast_verification_performed": false,
+  "common_domain_sensitivity_n": 744,
+  "comparison_limitations": [
+    "ADT 0.125deg surface front vs GLORYS 50m current core: definition mismatch",
+    "GLORYS may assimilate satellite altimetry: not fully statistically independent",
+    "ADT V6 Python port not numerically matched against MATLAB",
+    "2023 ADT tracker terminal failures: strong nonrandom missingness",
+    "R7.0 overall path metric has unmatched eastern endpoints",
+    "R7.0 saved prediction files empty; forecast-to-ADT comparison NOT executed",
+    "Never replace daily valid sample with test-target data or select dates by errors"
+  ]
+}

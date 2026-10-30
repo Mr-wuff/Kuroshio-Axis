@@ -1,0 +1,152 @@
+{
+  "version": "R80_Coastline_DisplayCorridor_FIX2_v1",
+  "base": "R80 coastline FIX1 / rewarite1_WSL(3).ipynb",
+  "dates_found": 11688,
+  "dates_selected": 11688,
+  "readable_dates": 11688,
+  "failed_dates": 0,
+  "visible_dates": 11688,
+  "fully_hidden_dates": 0,
+  "clipped_dates": 11644,
+  "visible_components": 40194,
+  "full_components": 11688,
+  "full_display_length_km": 46855098.1556089,
+  "visible_display_length_km": 40248948.52741037,
+  "visible_fraction_total_display_length": 0.8590089469824806,
+  "clip_policy": "all",
+  "min_fragment_km": 0.0,
+  "nonfinite_coordinates_split_not_bridged": true,
+  "smoothing_before_clipping": true,
+  "source_npz_written_by_script": false,
+  "input_sha_before_after_verified": true,
+  "display_only_crop_not_scientific_QC": true,
+  "polygon_approximates_user_annotation": true,
+  "mean_axis": "Original FIX1 normalized-arclength display mean of all readable continuous complete daily paths; clipped for rendering only",
+  "mean_profile_days": 11688,
+  "daily_smooth_km": 10.0,
+  "mean_smooth_km": 18,
+  "mean_display_smoothing_limit_km": 12,
+  "start_requested": "1993-01-01",
+  "end_requested": "2024-12-31",
+  "daily_stride": 1,
+  "max_lines": 0,
+  "daily_alpha": 0.036,
+  "coastline_source": {
+    "source": "GSHHG / GSHHS coastline and land polygons",
+    "source_provider": "basemap-data",
+    "package_version": "2.0.0",
+    "upstream_dataset_version": "2.3.6 (as documented by basemap-data)",
+    "resolution": "intermediate (i), not 10-metre spatial resolution",
+    "area_threshold_km2": 1.0,
+    "subset_extent_lonlat": [
+      117,
+      149,
+      18,
+      44
+    ],
+    "plot_extent_lonlat": [
+      119,
+      147,
+      20,
+      42
+    ],
+    "coordinate_system": "WGS84 lon/lat degrees",
+    "polygons": 786,
+    "shoreline_segments": 1190,
+    "license": "LGPL-3.0-or-later",
+    "source_doc": "https://pypi.org/project/basemap-data/",
+    "dataset_doc": "https://www.ngdc.noaa.gov/mgg/shorelines/shorelines.html",
+    "processing": "Basemap cylindrical coordinate crop only; no invented coastline; no fitted ocean trajectories",
+    "contains_political_borders": false,
+    "npz_sha256": "f0b42741738950e7179da2e9236ba93467a0c335cb458431049e0b9d7d2ec99a"
+  },
+  "land_fill_below_data": true,
+  "land_mask_filter_used": false,
+  "requires_network": false,
+  "requires_cartopy": false,
+  "languages_written": [
+    "en",
+    "zh"
+  ],
+  "extent": [
+    119.0,
+    147.0,
+    20.0,
+    42.0
+  ],
+  "transects": {
+    "A": [
+      [
+        121.5,
+        23.5
+      ],
+      [
+        125.0,
+        22.75
+      ]
+    ],
+    "B": [
+      [
+        121.5,
+        26.25
+      ],
+      [
+        124.25,
+        24.25
+      ]
+    ],
+    "PN": [
+      [
+        126.0,
+        29.0
+      ],
+      [
+        128.15,
+        27.3
+      ]
+    ],
+    "C": [
+      [
+        130.25,
+        31.25
+      ],
+      [
+        132.5,
+        27.0
+      ]
+    ],
+    "D": [
+      [
+        137.0,
+        34.75
+      ],
+      [
+        138.0,
+        27.75
+      ]
+    ],
+    "E": [
+      [
+        141.75,
+        40.0
+      ],
+      [
+        145.0,
+        31.5
+      ]
+    ]
+  },
+  "files": [
+    "/mnt/d/KuroshioDaily1993_2025/R80_review_figures_coastline_corridor_FIX2/figures/Figure2_main_corridor_coastline_FIX2.png",
+    "/mnt/d/KuroshioDaily1993_2025/R80_review_figures_coastline_corridor_FIX2/figures/Figure2_main_corridor_coastline_FIX2.pdf",
+    "/mnt/d/KuroshioDaily1993_2025/R80_review_figures_coastline_corridor_FIX2/figures/Figure2_all_paths_unclipped_FIX2.png",
+    "/mnt/d/KuroshioDaily1993_2025/R80_review_figures_coastline_corridor_FIX2/figures/Figure2_all_paths_unclipped_FIX2.pdf",
+    "/mnt/d/KuroshioDaily1993_2025/R80_review_figures_coastline_corridor_FIX2/figures/Figure2_corridor_boundary_check_FIX2.png",
+    "/mnt/d/KuroshioDaily1993_2025/R80_review_figures_coastline_corridor_FIX2/figures/图2_主路径显示走廊_含海岸线_FIX2.png",
+    "/mnt/d/KuroshioDaily1993_2025/R80_review_figures_coastline_corridor_FIX2/figures/图2_主路径显示走廊_含海岸线_FIX2.pdf",
+    "/mnt/d/KuroshioDaily1993_2025/R80_review_figures_coastline_corridor_FIX2/figures/图2_全路径未裁剪对照_FIX2.png",
+    "/mnt/d/KuroshioDaily1993_2025/R80_review_figures_coastline_corridor_FIX2/figures/图2_全路径未裁剪对照_FIX2.pdf",
+    "/mnt/d/KuroshioDaily1993_2025/R80_review_figures_coastline_corridor_FIX2/figures/图2_显示走廊边界检查_FIX2.png"
+  ],
+  "created_utc": "2026-10-25T12:07:34.489468+00:00"
+}

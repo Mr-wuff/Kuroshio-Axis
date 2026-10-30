@@ -1,0 +1,3 @@
+逐日GLORYS 50 m流轴的显示筛选保留了10145/11688个可读日期。对原始完整路径相对于代表性日路径的距离和沿程回退进行几何筛选；未进行多边形裁剪或路径补画。绿色曲线是保留日期的归一化弧长显示平均轴；未筛选图另用全日期平均轴。两组均仅采用相同的显示平滑。未显示日期及其筛选依据另附；该图不构成流轴识别正确率或模型预测精度的证据。
+
+The display-selected panel retains 10145 of 11688 readable daily GLORYS 50-m axes. Complete tracks are selected using distance to representative daily paths and large along-path reversals; no polygon cropping or gap reconstruction is applied. The green curve is the normalized-arclength display mean of retained days (the unfiltered companion uses all readable complete days). Identical display smoothing is applied. Omitted dates and criteria are documented separately; this visualization is not an axis-accuracy or forecast-skill assessment.

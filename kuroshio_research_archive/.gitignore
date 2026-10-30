@@ -1,0 +1,13 @@
+# Machine-specific files and intermediate training data
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.log
+.env*
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+cache/
+wandb/

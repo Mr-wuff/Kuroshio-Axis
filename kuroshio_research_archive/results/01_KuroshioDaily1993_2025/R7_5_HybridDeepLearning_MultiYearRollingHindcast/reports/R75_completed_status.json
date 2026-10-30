@@ -1,0 +1,31 @@
+{
+  "run_utc": "2026-10-16T05:01:24.383511+00:00",
+  "model": "hybrid deep-learning prediction",
+  "internal_arch": "R65-CrossDrop60",
+  "dataset_sha256": "d51c3157dfc1014b8c67e7d38553e875a63602d0aaf781717558d5e10d5c6c16",
+  "test_years": [
+    2005,
+    2008,
+    2011,
+    2014,
+    2017,
+    2019,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "seeds": [
+    71,
+    72
+  ],
+  "expected_fold_seed_runs": 20,
+  "completed_fold_seed_runs": 20,
+  "complete": true,
+  "missing_runs": [],
+  "metrics_from_GLORYS_50m_not_ADT": true,
+  "2014_and_2019_previously_used_in_development": true,
+  "test_is_not_blind": true,
+  "weights_trained_causally_for_each_test_year": true,
+  "network_architecture_and_training_contract_fixed": true
+}

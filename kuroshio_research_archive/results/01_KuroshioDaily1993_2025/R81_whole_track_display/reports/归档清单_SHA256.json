@@ -1,0 +1,142 @@
+[
+  {
+    "path": "figures/Figure2_all_tracks_reference_R81.pdf",
+    "bytes": 1475016,
+    "sha256": "b879e804f765b267f56c6512bfb045ffc129c2f8d833d43737fbfdd77a73eb80"
+  },
+  {
+    "path": "figures/Figure2_all_tracks_reference_R81.png",
+    "bytes": 2998222,
+    "sha256": "ea0a3028fb9635494b1877d6046ebbf79a508949d4d8b62526d8b9c2c949cf95"
+  },
+  {
+    "path": "figures/Figure2_omitted_tracks_audit_R81.pdf",
+    "bytes": 1527568,
+    "sha256": "73fc329538a30fff5afe8376f505bf28862fb22590a92534d81469235e892bba"
+  },
+  {
+    "path": "figures/Figure2_omitted_tracks_audit_R81.png",
+    "bytes": 3261394,
+    "sha256": "7621061c560a91f7de01cb15e4e0f789f0e9a1dfa7906fd47d5e4e8bbd280329"
+  },
+  {
+    "path": "figures/Figure2_unfiltered_vs_selected_R81.pdf",
+    "bytes": 2127454,
+    "sha256": "a66c43f9d08b4561171ccf5e02b1b38003bb8f224a4df40bf56a4aae4b487050"
+  },
+  {
+    "path": "figures/Figure2_unfiltered_vs_selected_R81.png",
+    "bytes": 4265591,
+    "sha256": "02414c7c776330fa62b422bd6124cdcd17f02ddc510e29cbd880ccf84d631023"
+  },
+  {
+    "path": "figures/Figure2_whole_track_selected_R81.pdf",
+    "bytes": 986876,
+    "sha256": "47863b7ed97df8fad6770f9637c7de9972e482568abb319d4f2cbd1237cc0ddd"
+  },
+  {
+    "path": "figures/Figure2_whole_track_selected_R81.png",
+    "bytes": 2180194,
+    "sha256": "acacad1fedbfc95a63643915db01b7ea0a2bea321857c4e0b769c27704ab7f45"
+  },
+  {
+    "path": "figures/图2_完整日路径筛选_R81.pdf",
+    "bytes": 1009846,
+    "sha256": "b83034deec86f035d4dd30b0012b82aa1c99c97d139486fe6528726746cbca45"
+  },
+  {
+    "path": "figures/图2_完整日路径筛选_R81.png",
+    "bytes": 2209391,
+    "sha256": "7420fa7dff8b74b9c198d2c456c1cbb75966f8aa60c234da8261e2a940ffb8e7"
+  },
+  {
+    "path": "figures/图2_未显示日期路径复核_R81.pdf",
+    "bytes": 1551705,
+    "sha256": "e85c154faace09c7af07e09741942455dfc09edfe099bbc18ee815337a9de42d"
+  },
+  {
+    "path": "figures/图2_未显示日期路径复核_R81.png",
+    "bytes": 3296714,
+    "sha256": "a5bab065409a99f8761875edd00e6870caca2e6ba3672d20432354ad61ef349a"
+  },
+  {
+    "path": "figures/图2_未筛选完整对照_R81.pdf",
+    "bytes": 1498040,
+    "sha256": "559bd96f6d979d76c673115f750a3af80c5188ae9c17bd68b96753cdf128b13c"
+  },
+  {
+    "path": "figures/图2_未筛选完整对照_R81.png",
+    "bytes": 3040545,
+    "sha256": "b9ec14205cf759bbbb74333c91003009f052716d8c4418e9502c230385adc860"
+  },
+  {
+    "path": "figures/图2_筛选前后对照_R81.pdf",
+    "bytes": 2144803,
+    "sha256": "406d8c8119c42b748cfcb7be866fb302ed3766098acac1dc0a7b7696f4bb8f00"
+  },
+  {
+    "path": "figures/图2_筛选前后对照_R81.png",
+    "bytes": 4299607,
+    "sha256": "cf2eb8af917045d899f0f68c664279e641daac109e56ac9f0ca845ea7b899434"
+  },
+  {
+    "path": "reports/R81_绘图状态与科学边界.json",
+    "bytes": 7143,
+    "sha256": "64aa2e7f9b962bd2b38625494254ad33461e7b63d3f8a1b9838e4dbc4b054cec"
+  },
+  {
+    "path": "reports/R81_运行配置.json",
+    "bytes": 1309,
+    "sha256": "754928aece89754cbbd4641142987120aab33c8fe7c0c13e30c3a37456a45239"
+  },
+  {
+    "path": "reports/建议图注_必须披露显示筛选.txt",
+    "bytes": 1012,
+    "sha256": "e3b07e0b86f98e631794bea8c0fc00d69387fe72e40df7cdc8c5e4320dc42597"
+  },
+  {
+    "path": "tables/主图保留日期清单.csv",
+    "bytes": 740597,
+    "sha256": "239e8a47ee40f2e44d5cd7a8b2ddb1d90d0dd77e466bd06df673e299633f0cef"
+  },
+  {
+    "path": "tables/主图未显示日期清单.csv",
+    "bytes": 186842,
+    "sha256": "8a1e5d4774c0e8f9c8076a4ac6ce35735e745e39831e8ccb1823deff9035dd13"
+  },
+  {
+    "path": "tables/保留日期显示平均轴.csv",
+    "bytes": 22411,
+    "sha256": "08366fa3c683f4a4cfc669697d61c149e71206dd37829008331bf043fd06e921"
+  },
+  {
+    "path": "tables/全日期显示平均轴.csv",
+    "bytes": 22277,
+    "sha256": "88c8f212619f22aa1e42780bf3efd37bbca18fb8df2277f566fe2c537f70cead"
+  },
+  {
+    "path": "tables/参考路径及沿程显示距离阈值.csv",
+    "bytes": 224960,
+    "sha256": "fd167925e65260b12951c43923d48dff196267b3a974504a365b5e8484efb073"
+  },
+  {
+    "path": "tables/多形态参考路径_原始日期.csv",
+    "bytes": 678,
+    "sha256": "d188e0f1c5569c64bf811b9417432d7fc41a79fc494c7ddea7b636200d87834d"
+  },
+  {
+    "path": "tables/读取失败记录.csv",
+    "bytes": 30,
+    "sha256": "56a0b4ce3f7738b39a9d888eb6bdbf44dec581ca7ec444f9b567939e9bfd496c"
+  },
+  {
+    "path": "tables/逐年路径保留比例.csv",
+    "bytes": 1204,
+    "sha256": "73ae2c866168c8a8f40b901b5574533077887b2bffb0ed390bef8e3e9b10dddf"
+  },
+  {
+    "path": "tables/逐日路径显示筛选审计.csv",
+    "bytes": 4948638,
+    "sha256": "34573c3bdee2321667f9cff999d4f821488b0f6c428339fa459f3def70987a26"
+  }
+]

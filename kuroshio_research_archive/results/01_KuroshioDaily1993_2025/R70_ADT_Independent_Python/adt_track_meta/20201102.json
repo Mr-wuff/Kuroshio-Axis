@@ -1,0 +1,17 @@
+{
+  "stop_reason": "six local searches and recovery failed",
+  "success": false,
+  "n_points": 196,
+  "last_lon": 137.95086206953806,
+  "last_lat": 29.6227570739138,
+  "n_recovery": 1,
+  "n_regularized": 4,
+  "ridge_g95": 0.005038094168470917,
+  "ridge_gc95": 0.004075484677207747,
+  "method": "ADT_V6_PythonPort",
+  "date": "2020-11-02",
+  "source_nc": "/mnt/f/01-CMEMS/SEALEVEL_GLO_PHY_L4_MY_008_047/cmems_obs-sl_glo_phy-ssh_my_allsat-l4-duacs-0.125deg_P1D/2020/dt_global_allsat_phy_l4_20201102_20241017.nc",
+  "walltime_s": 2.24,
+  "status": "qc_rejected",
+  "qc_warning": false
+}

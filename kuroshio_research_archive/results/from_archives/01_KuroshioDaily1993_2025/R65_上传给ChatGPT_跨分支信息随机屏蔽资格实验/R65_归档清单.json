@@ -1,0 +1,97 @@
+[
+  {
+    "path": "图表/英文/R65_快速资格_TrueRMSE.pdf",
+    "sha256": "3eacb20cd089a0da2ed1e8ec293498e61ff254564d1941012374125033b1efa9",
+    "bytes": 24077
+  },
+  {
+    "path": "图表/英文/R65_快速资格_TrueRMSE.png",
+    "sha256": "f69dee79f5009f46cbea9806b317363c6fbee29ca157ef6ca269a677717cbc5d",
+    "bytes": 224414
+  },
+  {
+    "path": "实验数据/01_2024到2025产品交界连续性.csv",
+    "sha256": "71e2c3e2af6f477c6ae703a73e4cfc4267916f0bde23e6ffc2e1cc6dbdf16be5",
+    "bytes": 146
+  },
+  {
+    "path": "实验数据/01_待人工复查的物理范围异常路径.csv",
+    "sha256": "cfb73a959daf020871457e025a96ea1129b71fc773f58359a8b638f2f0ed4931",
+    "bytes": 84341
+  },
+  {
+    "path": "实验数据/01_逐年覆盖率.csv",
+    "sha256": "40b75caa3dc8b2ab25755223a0036952f1fe642303257fbe467478cdde60ee5b",
+    "bytes": 623
+  },
+  {
+    "path": "实验数据/02_全部有效预测起报日期.csv",
+    "sha256": "6e2332c891435c243c3c173231ca70d11b623c6f05e05491f30a1f090947753f",
+    "bytes": 506158
+  },
+  {
+    "path": "实验数据/03_多年滚动后报折次及防泄漏审计.csv",
+    "sha256": "13d898709b82ef9876ee72799d5d086a2ea7adf0c8bb176478f4d5c0679ed86d",
+    "bytes": 681
+  },
+  {
+    "path": "实验数据/03_逐样本时序划分.csv",
+    "sha256": "c0ea094a405e28baf4165d789b0df1f29be3eec056da54f224fa7da024bb77ed",
+    "bytes": 1720610
+  },
+  {
+    "path": "实验数据/R60_01_严格因果时序拆分.csv",
+    "sha256": "643ed3bcace654d8e2291bf1bccdc240681d59bffac0cb0292f217b710c88259",
+    "bytes": 384
+  },
+  {
+    "path": "实验数据/R60_02_参数量公平审计.csv",
+    "sha256": "f5cd68da559560121121cbff708b6a2adc7f10d5c5bc31b15879b0c48865fe9a",
+    "bytes": 205
+  },
+  {
+    "path": "实验数据/R65_01_参数量公平审计.csv",
+    "sha256": "5bc49cf13cd7f62ecc5b8e2e381e4c8f3eaeb69743d93971ffdb10c35b994148",
+    "bytes": 201
+  },
+  {
+    "path": "实验数据/R65_快速资格_年份种子提前期误差.csv",
+    "sha256": "90d2180c185b0c03b839653a889b5143f469bef28ae03b0b2d9777205be624ae",
+    "bytes": 2773
+  },
+  {
+    "path": "实验数据/R65_快速资格_模型平均误差.csv",
+    "sha256": "27b5f95171a8c5dc3d077864c3b908a4bb69ded9653c915a7f88121f03529961",
+    "bytes": 592
+  },
+  {
+    "path": "实验数据/R65_逐样本真实预测误差.csv",
+    "sha256": "482f450a5b3308b36eec810bfe5fc43a89128e87d45913ec58ba624dcf380d58",
+    "bytes": 1877240
+  },
+  {
+    "path": "报告/R61_实验预注册合同.json",
+    "sha256": "e0da926181ea3d500c3a73f82a3a9539d3246ffdde1aa7b878ce0d41bf84cb0d",
+    "bytes": 631
+  },
+  {
+    "path": "报告/R65_00_预注册实验合同.json",
+    "sha256": "17c28a0306ae12e829442c7728fef4838010c4ede6c05c2b3a4162890e708037",
+    "bytes": 727
+  },
+  {
+    "path": "报告/R65_快速资格_资格判定.json",
+    "sha256": "6c257f5898b554ec335dd180c3cd995436863037e3d14b06827b401e50b5c9e4",
+    "bytes": 1029
+  },
+  {
+    "path": "报告/R65_打包状态.json",
+    "sha256": "1ebc1d0f43ebc5f11d89eb6cf871efcb074d9244c911bc815143a93db16f5f54",
+    "bytes": 102
+  },
+  {
+    "path": "报告/R65_最终研究交接.json",
+    "sha256": "c9642cdee018be2bd4710737b6fd2208b10071ee6ce5807c54440ee951b08b92",
+    "bytes": 1587
+  }
+]

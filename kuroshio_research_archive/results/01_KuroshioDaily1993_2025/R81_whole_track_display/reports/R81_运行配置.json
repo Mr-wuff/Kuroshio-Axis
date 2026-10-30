@@ -1,0 +1,70 @@
+{
+  "ROOT": "/mnt/d/KuroshioDaily1993_2025",
+  "TRACK_DIR": "",
+  "OUT_DIR": "",
+  "START_DATE": "1993-01-01",
+  "END_DATE": "2024-12-31",
+  "DAILY_STRIDE": 1,
+  "MAX_DAYS": 0,
+  "LANGUAGE": "both",
+  "DPI": 300,
+  "DAILY_ALPHA": 0.036,
+  "DAILY_LINEWIDTH": 0.29,
+  "SMOOTH_KM": 10.0,
+  "MAX_SMOOTH_DISPLACE_KM": 12.0,
+  "MEAN_SMOOTH_KM": 18.0,
+  "PROFILE_POINTS": 220,
+  "FILTER_SAMPLE_KM": 5.0,
+  "MAX_SEGMENT_JUMP_KM": 250.0,
+  "MIN_TRACK_POINTS": 15,
+  "MIN_TRACK_LENGTH_KM": 800.0,
+  "MAX_TRACK_LENGTH_KM": 7000.0,
+  "REFERENCE_MIN_LENGTH_KM": 1500.0,
+  "REFERENCE_MAX_LENGTH_KM": 5500.0,
+  "REFERENCE_COUNT": 3,
+  "REFERENCE_POOL_MAX": 1500,
+  "REFERENCE_MIN_CLUSTER_FRAC": 0.06,
+  "MAX_OUTSIDE_LENGTH_FRACTION": 0.04,
+  "MAX_OUTSIDE_RUN_KM": 120.0,
+  "MAX_DISTANCE_RATIO": 2.0,
+  "MAX_BACKTRACK_KM": 350.0,
+  "MAX_BACKTRACK_LENGTH_FRACTION": 0.18,
+  "DISTANCE_TOLERANCE_KM": [
+    [
+      0.0,
+      110.0
+    ],
+    [
+      0.1,
+      130.0
+    ],
+    [
+      0.25,
+      140.0
+    ],
+    [
+      0.4,
+      170.0
+    ],
+    [
+      0.55,
+      230.0
+    ],
+    [
+      0.75,
+      300.0
+    ],
+    [
+      0.9,
+      340.0
+    ],
+    [
+      1.0,
+      360.0
+    ]
+  ],
+  "VERIFY_SOURCE_SHA256": true,
+  "SHOW_REJECTED_FIGURE": true,
+  "MAKE_COMPARISON": true,
+  "KEEP_SHARE_WARNING_FRACTION": 0.5
+}

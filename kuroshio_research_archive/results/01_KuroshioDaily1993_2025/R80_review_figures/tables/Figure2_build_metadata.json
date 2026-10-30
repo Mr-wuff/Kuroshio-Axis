@@ -1,0 +1,9 @@
+{
+  "input_paths": 11688,
+  "valid_paths": 11688,
+  "start_requested": "1993-01-01",
+  "end_requested": "2024-12-31",
+  "smooth_km_display_only": 10,
+  "daily_stride": 1,
+  "have_real_adt_land_mask": false
+}

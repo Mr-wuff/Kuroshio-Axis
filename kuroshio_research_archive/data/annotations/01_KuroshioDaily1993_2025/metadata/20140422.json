@@ -1,0 +1,12 @@
+{
+  "date": "2014-04-22",
+  "status": "manual_corrected",
+  "note": "",
+  "metrics": {
+    "max_lon": 146.0,
+    "finite_speed_frac": 1.0,
+    "ridge_median": 0.9870668874479835,
+    "ridge_p10": 0.9578145635274743,
+    "p95_turn_deg": 49.43018236858167
+  }
+}

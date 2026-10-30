@@ -1,0 +1,44 @@
+{
+  "stage": "快速资格",
+  "years": [
+    2014,
+    2019
+  ],
+  "selected": null,
+  "qualified": false,
+  "decisions": [
+    {
+      "candidate": "R65-CrossDrop35",
+      "gain_vs_LSTM_km": -0.8881981566261551,
+      "gain_vs_GN8_km": 0.12447502257253588,
+      "year_gain_km": {
+        "2014": 4.386518542825034,
+        "2019": -6.162914856077344
+      },
+      "lead_gain_km": {
+        "30": -1.7758013299680924,
+        "60": -0.28147823247334003,
+        "90": -0.6073149074370328
+      },
+      "year_seed_winrate": 0.5,
+      "qualified": false
+    },
+    {
+      "candidate": "R65-CrossDrop60",
+      "gain_vs_LSTM_km": -0.43459201030644107,
+      "gain_vs_GN8_km": 0.5780811688922499,
+      "year_gain_km": {
+        "2014": 4.404897279777912,
+        "2019": -5.274081300390794
+      },
+      "lead_gain_km": {
+        "30": -1.5922511994843482,
+        "60": 0.005297855379613914,
+        "90": 0.2831773131854112
+      },
+      "year_seed_winrate": 0.5,
+      "qualified": false
+    }
+  ],
+  "not_blind": true
+}
